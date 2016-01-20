@@ -1,0 +1,20 @@
+{
+  "name": "videojs-shaka-tech",
+  "version": "0.0.1",
+  "description": "A video.js tech enabling usage of the Shaka Player for playing MPEG-DASH streams",
+  "scripts": {
+    "build": "babel src -d lib",
+    "build:watch": "babel -w src -d lib",
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "keywords": [
+    "videojs",
+    "video.js",
+    "shaka"
+  ],
+  "author": "Gregor Kralik <g.kralik@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-cli": "^6.4.5"
+  }
+}
