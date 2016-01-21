@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "A video.js tech enabling usage of the Shaka Player for playing MPEG-DASH streams",
   "scripts": {
-    "build": "babel src -d dist",
-    "build:watch": "babel -w src -d dist",
+    "build": "babel -s --minified --compact true src -d dist",
+    "build:watch": "babel -s -w src -d dist",
     "test": "echo \"Error: no tests specified\" && exit 1"
   },
   "keywords": [
